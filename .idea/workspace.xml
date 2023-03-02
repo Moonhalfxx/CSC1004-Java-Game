@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cacd1953-59bb-402e-922e-a5f6cb7122a9" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-27-2月-2023-20.43.17.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-27-2月-2023-21.19.58.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-27-2月-2023-22.03.04.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/JavaGame/Escape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Escape.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/fxgl.bundle" afterDir="false" />
+    <list default="true" id="cacd1953-59bb-402e-922e-a5f6cb7122a9" name="变更" comment="no-1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +102,16 @@
       <workItem from="1677500577649" duration="184000" />
       <workItem from="1677500775819" duration="135000" />
       <workItem from="1677501291182" duration="2717000" />
+      <workItem from="1677744641307" duration="813000" />
     </task>
+    <task id="LOCAL-00001" summary="no-1">
+      <created>1677744794945</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677744794945</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,5 +119,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="no-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="no-1" />
   </component>
 </project>
