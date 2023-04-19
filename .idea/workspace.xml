@@ -4,7 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cacd1953-59bb-402e-922e-a5f6cb7122a9" name="变更" comment="no-1" />
+    <list default="true" id="cacd1953-59bb-402e-922e-a5f6cb7122a9" name="变更" comment="1">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-15-4月-2023-22.05.16.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-15-4月-2023-22.05.49.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-15-4月-2023-22.46.59.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-16-4月-2023-22.49.27.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-19-4月-2023-23.00.57.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-19-4月-2023-23.01.43.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-19-4月-2023-23.03.19.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-19-4月-2023-23.06.46.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-19-4月-2023-23.10.13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-19-4月-2023-23.10.27.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/EscapeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/EscapeEntityFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Ceiling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage1/Stage1 Curtain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage1/Stage1 Door.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage2/Stage2 Chair.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage2/Stage2 Clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage2/Stage2 Drawer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/Stage3 Mirror.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/Stage3 Tap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage4/Stage4 Bed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage4/Stage4 Box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage4/Stage4 Clock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-02-3月-2023-16.11.56.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-2月-2023-20.43.17.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-2月-2023-21.19.58.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-2月-2023-22.03.04.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Moonhalf/JavaGame/Escape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,13 +48,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="module-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../../Program Files/Java/jdk-17.0.5/lib/src.zip!/java.desktop/java/awt/event/ActionListener.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,27 +80,100 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Lenovo/OneDrive - CUHK-Shenzhen/桌面/javaGame/src/main/resources/assets/textures",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/OneDrive - CUHK-Shenzhen/桌面/javaGame/src/main/resources/assets/textures&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo\OneDrive - CUHK-Shenzhen\桌面\javaGame\src\main\resources\assets\textures" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\OneDrive - CUHK-Shenzhen\桌面\javaGame\src\main\resources\assets\textures\Stage4" />
+      <recent name="C:\Users\Lenovo\OneDrive - CUHK-Shenzhen\桌面\javaGame\src\main\resources\assets\textures\Stage3" />
+      <recent name="C:\Users\Lenovo\OneDrive - CUHK-Shenzhen\桌面\javaGame\src\main\resources\assets\textures\Stage2" />
+      <recent name="C:\Users\Lenovo\OneDrive - CUHK-Shenzhen\桌面\javaGame\src\main\resources\assets\textures\Stage1" />
+      <recent name="C:\Users\Lenovo\OneDrive - CUHK-Shenzhen\桌面\javaGame\src\main\resources\assets\textures" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="应用程序.com.Moonhalf.EscapeApp">
+    <configuration name="EscapeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Moonhalf.JavaGame.EscapeApp" />
+      <module name="javaGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Moonhalf.JavaGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Moonhalf.JavaGame.Login" />
+      <module name="javaGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Moonhalf.JavaGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Moonhalf.JavaGame.Login" />
+      <module name="javaGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Moonhalf.JavaGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.Moonhalf.EscapeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Moonhalf.EscapeApp" />
+      <module name="javaGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Moonhalf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.Moonhalf.JavaGame.Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Moonhalf.JavaGame.Login" />
+      <module name="javaGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Moonhalf.JavaGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="javaGame" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -86,6 +197,15 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.com.Moonhalf.EscapeApp" />
+        <item itemvalue="应用程序.com.Moonhalf.JavaGame.Login" />
+        <item itemvalue="应用程序.EscapeApp" />
+        <item itemvalue="应用程序.Login (2)" />
+        <item itemvalue="应用程序.Login (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -102,7 +222,25 @@
       <workItem from="1677500775819" duration="135000" />
       <workItem from="1677501291182" duration="2717000" />
       <workItem from="1677744641307" duration="813000" />
-      <workItem from="1677745510315" duration="514000" />
+      <workItem from="1677745510315" duration="849000" />
+      <workItem from="1677746472563" duration="716000" />
+      <workItem from="1678275153694" duration="76000" />
+      <workItem from="1678356601185" duration="829000" />
+      <workItem from="1679991203109" duration="399000" />
+      <workItem from="1680016458980" duration="1657000" />
+      <workItem from="1680066102372" duration="1844000" />
+      <workItem from="1680075410208" duration="238000" />
+      <workItem from="1680076040857" duration="5117000" />
+      <workItem from="1680085433221" duration="3783000" />
+      <workItem from="1680095681127" duration="4617000" />
+      <workItem from="1680157205041" duration="1315000" />
+      <workItem from="1680161158538" duration="57000" />
+      <workItem from="1681376307154" duration="2922000" />
+      <workItem from="1681543990105" duration="3461000" />
+      <workItem from="1681565361702" duration="6334000" />
+      <workItem from="1681649146962" duration="2236000" />
+      <workItem from="1681801704348" duration="15000" />
+      <workItem from="1681914016479" duration="2393000" />
     </task>
     <task id="LOCAL-00001" summary="no-1">
       <created>1677744794945</created>
@@ -118,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677745653509</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1">
+      <created>1677746086787</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677746086787</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +272,11 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="no-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="no-1" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

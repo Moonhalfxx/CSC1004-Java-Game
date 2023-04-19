@@ -1,0 +1,241 @@
+22:05:33.251 [main                     ] DEBUG Logger               - Configured Logger
+22:05:33.272 [main                     ] DEBUG GameApplication      - Logging settings
+Title: Escape
+Version: 0.1
+Width: 1000
+Height: 800
+Fullscreen: false
+Intro: false
+Profiling: false
+Single step:false
+App Mode: DEVELOPER
+Menu Key: ESCAPE
+Stage Style: DECORATED
+Scene Factory: class com.almasb.fxgl.app.scene.SceneFactory
+
+22:05:33.520 [JavaFX Application Thread] DEBUG FXGLApplication      - Initializing FXGL
+22:05:33.523 [JavaFX Application Thread] INFO  Engine               - FXGL-17.2 (20.08.2022 16.50) on WINDOWS (J:17.0.5 FX:18)
+22:05:33.524 [JavaFX Application Thread] DEBUG Engine               - JRE Vendor Name: Oracle Corporation
+22:05:33.524 [JavaFX Application Thread] DEBUG Engine               - Running on OS: Windows 11 version 10.0
+22:05:33.524 [JavaFX Application Thread] DEBUG Engine               - Architecture: amd64
+22:05:33.524 [JavaFX Application Thread] INFO  Engine               - Source code and latest versions at: https://github.com/AlmasB/FXGL
+22:05:33.524 [JavaFX Application Thread] INFO  Engine               -       Ask questions and discuss at: https://github.com/AlmasB/FXGL/discussions
+22:05:33.524 [JavaFX Application Thread] INFO  Engine               -              Join the FXGL chat at: https://gitter.im/AlmasB/FXGL
+22:05:33.572 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Creating a JavaFX scene
+22:05:33.598 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Target settings size: 1000.0 x 800.0
+22:05:33.598 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scaled scene size:    1000.0 x 800.0
+22:05:33.598 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scaled ratio: (1.0, 1.0)
+22:05:33.599 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Set initial scene to FXGLStartupScene
+22:05:33.602 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Opening main window
+22:05:33.659 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Window border size: (14.66668701171875, 37.33331298828125)
+22:05:33.659 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scaled size: 1000.0 x 800.0
+22:05:33.660 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scaled ratio: (1.0, 1.0)
+22:05:33.660 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Scene size: 1000.0 x 800.0
+22:05:33.660 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Stage size: 1014.6666870117188 x 837.3333129882812
+22:05:33.665 [FXGL Background Thread 1 ] DEBUG Engine               - Initializing environment variables
+22:05:33.690 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - User app class for loading assets: class com.Moonhalf.EscapeApp
+22:05:33.691 [FXGL Background Thread 1 ] DEBUG GameApplicationServi - Applying CSS: fxgl_dark.css
+22:05:33.692 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/Lenovo/.m2/repository/com/github/almasb/fxgl/17.2/fxgl-17.2.jar!/fxglassets/ui/css/fxgl_dark.css
+22:05:33.720 [FXGL Background Thread 1 ] DEBUG GameApplicationServi - Initializing application scenes
+22:05:33.759 [FXGL Background Thread 1 ] DEBUG GameWorld            - Game world initialized
+22:05:33.801 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Physics world initialized: appHeight=800, physics.ppm=50.0
+22:05:33.801 [FXGL Background Thread 1 ] DEBUG PhysicsWorld         - Using strategy: BRUTE_FORCE
+22:05:33.804 [FXGL Background Thread 1 ] DEBUG GameScene            - Game scene initialized: 1000x800
+22:05:33.813 [FXGL Background Thread 1 ] DEBUG FXGL.DefaultMenu     - createMenuBodyGameMenu()
+22:05:33.822 [FXGL Background Thread 1 ] DEBUG FXGL.DefaultMenu     - createOptionsMenu()
+22:05:33.830 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/Lenovo/.m2/repository/com/github/almasb/fxgl/17.2/fxgl-17.2.jar!/fxglassets/textures/particles/smoke.png
+22:05:33.888 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/Lenovo/.m2/repository/com/github/almasb/fxgl/17.2/fxgl-17.2.jar!/fxglassets/textures/particles/trace_horizontal.png
+22:05:33.905 [FXGL Background Thread 1 ] DEBUG GameApplicationServi - Application scenes initialized
+22:05:33.915 [FXGL Background Thread 1 ] DEBUG SystemBundleService  - Loading FXGL system data
+22:05:33.918 [FXGL Background Thread 1 ] DEBUG FileSystemAccess     - Reading from: C:\Users\Lenovo\OneDrive - CUHK-Shenzhen\桌面\javaGame\system\fxgl.bundle
+22:05:33.923 [FXGL Background Thread 1 ] DEBUG SystemBundleService  - Bundle FXGL: {}
+22:05:33.923 [FXGL Background Thread 1 ] DEBUG UpdaterService       - Checking for updates
+22:05:33.926 [FXGL Background Thread 4 ] DEBUG FXGLApplication      - Loading fonts
+22:05:33.926 [FXGL Background Thread 1 ] DEBUG FXGLApplication      - Loading default localization
+22:05:33.926 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/Lenovo/.m2/repository/com/github/almasb/fxgl/17.2/fxgl-17.2.jar!/fxglassets/ui/fonts/VarelaRound-Regular.ttf
+22:05:33.926 [FXGL Background Thread 1 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/Lenovo/.m2/repository/com/github/almasb/fxgl/17.2/fxgl-17.2.jar!/fxglassets/languages/english.lang
+22:05:33.939 [FXGL Background Thread 1 ] INFO  FXGLApplication      - FXGL initialization took: 0.273 sec
+22:05:33.940 [JavaFX Application Thread] DEBUG FXGLAssetLoaderServi - Loading from file system: file:/C:/Users/Lenovo/OneDrive%20-%20CUHK-Shenzhen/桌面/javaGame/target/classes/assets/textures/Escape.png
+22:05:33.951 [JavaFX Application Thread] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/Lenovo/.m2/repository/com/github/almasb/fxgl/17.2/fxgl-17.2.jar!/fxglassets/textures/fxgl_default_cursor.png
+22:05:33.971 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/Lenovo/.m2/repository/com/github/almasb/fxgl/17.2/fxgl-17.2.jar!/fxglassets/ui/fonts/Abel-Regular.ttf
+22:05:33.971 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Screenshot - CTRL+8
+22:05:33.972 [JavaFX Application Thread] DEBUG Input                - Registered new binding: System info dump - CTRL+9
+22:05:33.973 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Restart - CTRL+R
+22:05:33.973 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/Lenovo/.m2/repository/com/github/almasb/fxgl/17.2/fxgl-17.2.jar!/fxglassets/ui/fonts/TerminalLandMono-Regular.otf
+22:05:33.974 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Toggle Debug Camera - CTRL+7
+22:05:33.975 [FXGL Background Thread 4 ] DEBUG FXGLAssetLoaderServi - Loading from file system: jar:file:///C:/Users/Lenovo/.m2/repository/com/github/almasb/fxgl/17.2/fxgl-17.2.jar!/fxglassets/ui/fonts/Courier-Prime.ttf
+22:05:33.979 [JavaFX Application Thread] DEBUG LoopRunner           - Starting loop
+22:05:33.979 [JavaFX Application Thread] DEBUG LoopRunner           - Initializing JavaFX AnimationTimerLoop
+22:05:33.982 [JavaFX Application Thread] DEBUG GameApplicationServi - Starting new game
+22:05:33.982 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+22:05:33.998 [JavaFX Application Thread] DEBUG GameApplicationServi - Removing overlay from FXGLStartupScene and adding to FXGLLoadingScene
+22:05:33.998 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - FXGLStartupScene -> FXGLLoadingScene
+22:05:33.998 [JavaFX Application Thread] DEBUG GameApplicationServi - Clearing previous game
+22:05:33.998 [JavaFX Application Thread] DEBUG GameScene            - Clearing game scene
+22:05:33.998 [JavaFX Application Thread] DEBUG GameWorld            - Clearing game world
+22:05:33.999 [JavaFX Application Thread] DEBUG PhysicsWorld         - Clearing physics world
+22:05:34.001 [JavaFX Application Thread] DEBUG FXGLApplication      - Registering font factories with UI factory
+22:05:34.001 [FXGL Background Thread 4 ] DEBUG FXGLApplication      - Initializing game
+22:05:34.035 [JavaFX Application Thread] DEBUG LoopRunner           - Stopping loop
+22:05:34.036 [JavaFX Application Thread] FATAL FXGLApplication      - Uncaught Exception:
+java.lang.RuntimeException: Initialization failed
+	at com.almasb.fxgl.all@17.2/com.almasb.fxgl.app.FXGLApplication$InitAppTask.failed(FXGLApplication.kt:343)
+	at javafx.graphics@18/javafx.concurrent.Task.setState(Task.java:710)
+	at javafx.graphics@18/javafx.concurrent.Task$TaskCallable.lambda$call$2(Task.java:1456)
+	at javafx.graphics@18/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:457)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at javafx.graphics@18/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:456)
+	at javafx.graphics@18/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+	at javafx.graphics@18/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics@18/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ClassCastException: class java.awt.Color cannot be cast to class javafx.scene.paint.Paint (java.awt.Color is in module java.desktop of loader 'bootstrap'; javafx.scene.paint.Paint is in module javafx.graphics@18 of loader 'app')
+	at javaGame/com.Moonhalf.EscapeEntityFactory.newRect(TestEntityFactory.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.almasb.fxgl.core@17.2/com.almasb.fxgl.core.reflect.ReflectionUtils.call(ReflectionUtils.java:104)
+	at com.almasb.fxgl.core@17.2/com.almasb.fxgl.core.reflect.ReflectionUtils.lambda$mapToFunction$3(ReflectionUtils.java:111)
+	at com.almasb.fxgl.entity@17.2/com.almasb.fxgl.entity.GameWorld$create$2.invoke(GameWorld.kt:430)
+	at com.almasb.fxgl.entity@17.2/com.almasb.fxgl.entity.GameWorld$create$2.invoke(GameWorld.kt:430)
+	at com.almasb.fxgl.core@17.2/com.almasb.fxgl.core.util.DSLKt.tryCatchRoot(DSL.kt:34)
+	at com.almasb.fxgl.entity@17.2/com.almasb.fxgl.entity.GameWorld.create(GameWorld.kt:430)
+	at com.almasb.fxgl.entity@17.2/com.almasb.fxgl.entity.GameWorld.spawn(GameWorld.kt:396)
+	at com.almasb.fxgl.all@17.2/com.almasb.fxgl.dsl.FXGL$Companion.spawn(FXGL.kt:565)
+	at com.almasb.fxgl.all@17.2/com.almasb.fxgl.dsl.FXGL.spawn(FXGL.kt)
+	at javaGame/com.Moonhalf.EscapeApp.initGame(EscapeApp.java:29)
+	at com.almasb.fxgl.all@17.2/com.almasb.fxgl.app.FXGLApplication$InitAppTask.initGame(FXGLApplication.kt:339)
+	at com.almasb.fxgl.all@17.2/com.almasb.fxgl.app.FXGLApplication$InitAppTask.call(FXGLApplication.kt:319)
+	at com.almasb.fxgl.all@17.2/com.almasb.fxgl.app.FXGLApplication$InitAppTask.call(FXGLApplication.kt:311)
+	at javafx.graphics@18/javafx.concurrent.Task$TaskCallable.call(Task.java:1426)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	... 1 more
+
+22:05:34.036 [JavaFX Application Thread] FATAL FXGLApplication      - Application will now exit
+22:05:34.053 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Push state: ErrorSubScene
+22:05:34.053 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+22:05:34.058 [JavaFX Application Thread] DEBUG GameApplicationServi - Removing overlay from FXGLLoadingScene and adding to ErrorSubScene
+22:05:34.059 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - FXGLLoadingScene -> ErrorSubScene
+22:05:34.380 [FXGL Background Thread 2 ] INFO  UpdaterService       - Your current version:  17.2
+22:05:34.381 [FXGL Background Thread 2 ] INFO  UpdaterService       - Latest stable version: 17.3
+22:05:36.926 [FXGL Background Thread 3 ] DEBUG Engine               - Logging environment variables
+22:05:36.926 [FXGL Background Thread 3 ] DEBUG Engine               - achievements: []
+22:05:36.927 [FXGL Background Thread 3 ] DEBUG Engine               - actualHeight: 800.0
+22:05:36.927 [FXGL Background Thread 3 ] DEBUG Engine               - actualHeightProperty: ReadOnlyDoubleProperty [value: 800.0]
+22:05:36.927 [FXGL Background Thread 3 ] DEBUG Engine               - actualWidth: 1000.0
+22:05:36.927 [FXGL Background Thread 3 ] DEBUG Engine               - actualWidthProperty: ReadOnlyDoubleProperty [value: 1000.0]
+22:05:36.927 [FXGL Background Thread 3 ] DEBUG Engine               - appIcon: Escape.png
+22:05:36.927 [FXGL Background Thread 3 ] DEBUG Engine               - applicationMode: DEVELOPER
+22:05:36.927 [FXGL Background Thread 3 ] DEBUG Engine               - cSSList: [fxgl_dark.css]
+22:05:36.927 [FXGL Background Thread 3 ] DEBUG Engine               - collisionDetectionStrategy: BRUTE_FORCE
+22:05:36.927 [FXGL Background Thread 3 ] DEBUG Engine               - configClass: Optional.empty
+22:05:36.928 [FXGL Background Thread 3 ] DEBUG Engine               - credits: []
+22:05:36.928 [FXGL Background Thread 3 ] DEBUG Engine               - defaultCursor: CursorInfo(imageName=fxgl_default_cursor.png, hotspotX=7.0, hotspotY=6.0)
+22:05:36.929 [FXGL Background Thread 3 ] DEBUG Engine               - devBBoxColorProperty: ObjectProperty [value: 0xff0000ff]
+22:05:36.929 [FXGL Background Thread 3 ] DEBUG Engine               - devEnableDebugCameraProperty: BooleanProperty [value: false]
+22:05:36.929 [FXGL Background Thread 3 ] DEBUG Engine               - devSensorColorProperty: ObjectProperty [value: 0xffff00ff]
+22:05:36.929 [FXGL Background Thread 3 ] DEBUG Engine               - devShowBBoxProperty: BooleanProperty [value: false]
+22:05:36.929 [FXGL Background Thread 3 ] DEBUG Engine               - devShowPositionProperty: BooleanProperty [value: false]
+22:05:36.929 [FXGL Background Thread 3 ] DEBUG Engine               - enabledMenuItems: []
+22:05:36.929 [FXGL Background Thread 3 ] DEBUG Engine               - engineServices: [class com.almasb.fxgl.app.services.FXGLAssetLoaderService, class com.almasb.fxgl.app.FXGLApplication$GameApplicationService, class com.almasb.fxgl.app.services.FXGLDialogService, class com.almasb.fxgl.app.services.IOTaskExecutorService, class com.almasb.fxgl.io.FileSystemService, class com.almasb.fxgl.localization.LocalizationService, class com.almasb.fxgl.app.services.SystemBundleService, class com.almasb.fxgl.profile.SaveLoadService, class com.almasb.fxgl.ui.FXGLUIFactoryServiceProvider, class com.almasb.fxgl.ui.FXGLDialogFactoryServiceProvider, class com.almasb.fxgl.audio.AudioPlayer, class com.almasb.fxgl.notification.impl.NotificationServiceProvider, class com.almasb.fxgl.achievement.AchievementService, class com.almasb.fxgl.cutscene.CutsceneService, class com.almasb.fxgl.minigames.MiniGameService, class com.almasb.fxgl.net.NetService, class com.almasb.fxgl.app.services.UpdaterService, class com.almasb.fxgl.dev.DevService]
+22:05:36.929 [FXGL Background Thread 3 ] DEBUG Engine               - fontGame: Abel-Regular.ttf
+22:05:36.929 [FXGL Background Thread 3 ] DEBUG Engine               - fontMono: TerminalLandMono-Regular.otf
+22:05:36.929 [FXGL Background Thread 3 ] DEBUG Engine               - fontText: Courier-Prime.ttf
+22:05:36.929 [FXGL Background Thread 3 ] DEBUG Engine               - fontUI: VarelaRound-Regular.ttf
+22:05:36.929 [FXGL Background Thread 3 ] DEBUG Engine               - fullScreen: BooleanProperty [value: false]
+22:05:36.929 [FXGL Background Thread 3 ] DEBUG Engine               - gameDifficulty: MEDIUM
+22:05:36.929 [FXGL Background Thread 3 ] DEBUG Engine               - gameDifficultyProperty: ObjectProperty [value: MEDIUM]
+22:05:36.929 [FXGL Background Thread 3 ] DEBUG Engine               - globalMusicVolume: 0.5
+22:05:36.929 [FXGL Background Thread 3 ] DEBUG Engine               - globalMusicVolumeProperty: DoubleProperty [value: 0.5]
+22:05:36.929 [FXGL Background Thread 3 ] DEBUG Engine               - globalSoundVolume: 0.5
+22:05:36.929 [FXGL Background Thread 3 ] DEBUG Engine               - globalSoundVolumeProperty: DoubleProperty [value: 0.5]
+22:05:36.929 [FXGL Background Thread 3 ] DEBUG Engine               - height: 800
+22:05:36.929 [FXGL Background Thread 3 ] DEBUG Engine               - is3D: false
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isAndroid: false
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isBrowser: false
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isClickFeedbackEnabled: false
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isCloseConfirmation: false
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isDesktop: true
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isDeveloperMenuEnabled: false
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isEmbedded: false
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isEntityPreloadEnabled: true
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isExperimentalTiledLargeMap: false
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isFileSystemWriteAllowed: true
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isFullScreenAllowed: false
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isFullScreenFromStart: false
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isGameMenuEnabled: true
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isIOS: false
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isIntroEnabled: false
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isLinux: false
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isMac: false
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isMainMenuEnabled: false
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isManualResizeEnabled: false
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isMobile: false
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isNative: false
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isPauseMusicWhenMinimized: true
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isPreserveResizeRatio: false
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isProfilingEnabled: false
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isScaleAffectedOnResize: true
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isSingleStep: false
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isUserProfileEnabled: false
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - isWindows: true
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - language: ObjectProperty [value: ENGLISH]
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - menuKey: ESCAPE
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - mouseSensitivity: 0.2
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - notificationViewClass: class com.almasb.fxgl.notification.view.XboxNotificationView
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - pixelsPerMeter: 50.0
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - platform: WINDOWS
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - prefHeightProperty: ReadOnlyDoubleProperty [value: 800.0]
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - prefWidthProperty: ReadOnlyDoubleProperty [value: 1000.0]
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - profileDir: profiles/
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - profileName: StringProperty [value: DEFAULT]
+22:05:36.930 [FXGL Background Thread 3 ] DEBUG Engine               - randomSeed: -1
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - runtimeInfo: RuntimeInfo(platform=WINDOWS, version=17.2, build=20.08.2022 16.50)
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - saveFileExt: sav
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - scaledHeightProp$fxgl: DoubleProperty [bound, value: 800.0]
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - scaledWidthProp$fxgl: DoubleProperty [bound, value: 1000.0]
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - sceneFactory: com.almasb.fxgl.app.scene.SceneFactory@5db7a2db
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - secondsIn24h: 60
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - soundMenuBack: menu/back.wav
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - soundMenuPress: menu/press.wav
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - soundMenuSelect: menu/select.wav
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - soundNotification: core/notification.wav
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - stageStyle: DECORATED
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - supportedLanguages: [ENGLISH, FRENCH, GERMAN, HUNGARIAN, RUSSIAN]
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - ticksPerSecond: -1
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - title: Escape
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - urlGithub: https://github.com/AlmasB/FXGL
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - urlLeaderboard: http://fxgl-top.herokuapp.com/
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - urlPOM: https://raw.githubusercontent.com/AlmasB/FXGL/release/README.md
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - userAppClass: class com.Moonhalf.EscapeApp
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - version: 0.1
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - versionCheckDays: 7
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - width: 1000
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - Logging services
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.app.services.FXGLAssetLoaderService
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.app.FXGLApplication$GameApplicationService
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.app.services.FXGLDialogService
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.app.services.IOTaskExecutorService
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.io.FileSystemService
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.localization.LocalizationService
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.app.services.SystemBundleService
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.profile.SaveLoadService
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.ui.FXGLUIFactoryServiceProvider
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.ui.FXGLDialogFactoryServiceProvider
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.audio.AudioPlayer
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.notification.impl.NotificationServiceProvider
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.achievement.AchievementService
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.cutscene.CutsceneService
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.minigames.MiniGameService
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.net.NetService
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.app.services.UpdaterService
+22:05:36.931 [FXGL Background Thread 3 ] DEBUG Engine               - class com.almasb.fxgl.dev.DevService
+22:05:49.067 [JavaFX Application Thread] DEBUG FXGLApplication      - Exiting FXGL
+22:05:49.067 [JavaFX Application Thread] DEBUG Async                - Shutting down background threads
+22:05:49.067 [JavaFX Application Thread] DEBUG PrimaryStageWindow   - Closing main window
+22:05:49.081 [JavaFX Application Thread] DEBUG Logger               - Closing Logger
