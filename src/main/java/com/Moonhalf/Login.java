@@ -1,5 +1,8 @@
 package com.Moonhalf;
 
+import com.almasb.fxgl.app.GameSettings;
+import com.Moonhalf.EscapeApp;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -82,7 +85,7 @@ public class Login{
                     //密码账号正确,进入游戏
                     //进入游戏
                     jFrame.setVisible(false);//将登录界面设定为不可见
-                    new EscapeApp();
+                    new EscapeApp().initSettings(new GameSettings());
                 }else{
                     //密码不正确
                     JOptionPane.showMessageDialog(jFrame,"密码错误","提示",JOptionPane.INFORMATION_MESSAGE);

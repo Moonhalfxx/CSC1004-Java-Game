@@ -4,41 +4,103 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cacd1953-59bb-402e-922e-a5f6cb7122a9" name="变更" comment="1">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-15-4月-2023-22.05.16.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-15-4月-2023-22.05.49.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-15-4月-2023-22.46.59.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-16-4月-2023-22.49.27.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-19-4月-2023-23.00.57.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-19-4月-2023-23.01.43.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-19-4月-2023-23.03.19.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-19-4月-2023-23.06.46.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-19-4月-2023-23.10.13.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-19-4月-2023-23.10.27.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/EscapeApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/EscapeEntityFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Ceiling.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage1/Stage1 Curtain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage1/Stage1 Door.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage2/Stage2 Chair.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage2/Stage2 Clock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage2/Stage2 Drawer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/Stage3 Mirror.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/Stage3 Tap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage4/Stage4 Bed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage4/Stage4 Box.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage4/Stage4 Clock.png" afterDir="false" />
+    <list default="true" id="cacd1953-59bb-402e-922e-a5f6cb7122a9" name="变更" comment="4.19">
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-30-4月-2023-14.50.53.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-30-4月-2023-16.24.51.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-30-4月-2023-16.25.12.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-30-4月-2023-16.43.45.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-30-4月-2023-16.46.59.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-30-4月-2023-16.58.26.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-30-4月-2023-16.59.07.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-30-4月-2023-17.00.04.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-30-4月-2023-17.06.02.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-30-4月-2023-17.06.51.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/components/ArrowL1Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/components/ArrowL2Componont.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/components/ArrowL4Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/components/ArrowR1Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/components/ArrowR3Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/components/ArrowR4Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/components/BoxComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/components/ChairComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/components/Clock1Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/components/Clock2Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/components/CurtainComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/components/DbComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/components/DgComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/components/DooorComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/components/DrComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/components/DrawerComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/components/DyComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/components/GuahuaComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/components/MirrorComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/components/TapComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/components/YugangComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/ui/MySubScene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/ArrowD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/ArrowR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Mengban.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage1/C1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage1/C2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage1/DB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage1/DG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage1/DR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage1/DY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage1/DoorClick.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage2/D1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage2/D2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage2/D3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage2/D4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage2/Drawer Click.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/Stage3 Tap1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/Stage3 Tap2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/chouti.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/guahua.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/guahuac1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/guahuac2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/guizi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/guizic1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/yinfu/Do.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/yinfu/Fa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/yinfu/La.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/yinfu/Mi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/yinfu/Re.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/yinfu/Sol.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/yugang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/yugangc.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/yugangc1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/yugangc2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage4/C0.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage4/C1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage4/C2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage4/C3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage4/C4.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage4/C5.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage4/C6.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage4/Cf.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage4/Painting.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-02-3月-2023-16.11.56.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-2月-2023-20.43.17.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-2月-2023-21.19.58.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-27-2月-2023-22.03.04.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Moonhalf/JavaGame/Escape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-15-4月-2023-22.05.16.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-15-4月-2023-22.05.49.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-15-4月-2023-22.46.59.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-16-4月-2023-22.49.27.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-4月-2023-23.00.57.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-4月-2023-23.01.43.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-4月-2023-23.03.19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-4月-2023-23.06.46.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-4月-2023-23.10.13.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-4月-2023-23.10.27.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Moonhalf/EscapeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/EscapeApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Moonhalf/EscapeEntityFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/EscapeEntityFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Moonhalf/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage1/Stage1 Curtain.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage1/Stage1 Curtain.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage1/Stage1 Door.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage1/Stage1 Door.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage2/Stage2 Chair.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage2/Stage2 Chair.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage2/Stage2 Clock.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage2/Stage2 Clock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage2/Stage2 Drawer.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage2/Stage2 Drawer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/Stage3 Mirror.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/Stage3 Mirror.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/Stage3 Tap.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage3/Stage3 Tap.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage4/Stage4 Bed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/textures/Stage4/Stage4 Bed.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +149,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/OneDrive - CUHK-Shenzhen/桌面/javaGame/src/main/resources/assets/textures&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/OneDrive - CUHK-Shenzhen/桌面/javaGame/src/main/resources/assets/textures/Stage1&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -97,33 +159,26 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.Moonhalf.components" />
+      <recent name="com.Moonhalf.ui" />
+      <recent name="com.Moonhalf" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\OneDrive - CUHK-Shenzhen\桌面\javaGame\src\main\resources\assets\textures\Stage1" />
       <recent name="C:\Users\Lenovo\OneDrive - CUHK-Shenzhen\桌面\javaGame\src\main\resources\assets\textures" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Lenovo\OneDrive - CUHK-Shenzhen\桌面\javaGame\src\main\resources\assets\textures\Stage4" />
       <recent name="C:\Users\Lenovo\OneDrive - CUHK-Shenzhen\桌面\javaGame\src\main\resources\assets\textures\Stage3" />
+      <recent name="C:\Users\Lenovo\OneDrive - CUHK-Shenzhen\桌面\javaGame\src\main\resources\assets\textures\Stage3\yinfu" />
       <recent name="C:\Users\Lenovo\OneDrive - CUHK-Shenzhen\桌面\javaGame\src\main\resources\assets\textures\Stage2" />
-      <recent name="C:\Users\Lenovo\OneDrive - CUHK-Shenzhen\桌面\javaGame\src\main\resources\assets\textures\Stage1" />
       <recent name="C:\Users\Lenovo\OneDrive - CUHK-Shenzhen\桌面\javaGame\src\main\resources\assets\textures" />
+      <recent name="C:\Users\Lenovo\OneDrive - CUHK-Shenzhen\桌面\javaGame\src\main\resources\assets\textures\Stage4" />
     </key>
   </component>
   <component name="RunManager" selected="应用程序.com.Moonhalf.EscapeApp">
     <configuration name="EscapeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Moonhalf.JavaGame.EscapeApp" />
-      <module name="javaGame" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Moonhalf.JavaGame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Login (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Moonhalf.JavaGame.Login" />
       <module name="javaGame" />
       <extension name="coverage">
         <pattern>
@@ -148,12 +203,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Moonhalf.Login" />
+      <module name="javaGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Moonhalf.components.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.Moonhalf.EscapeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Moonhalf.EscapeApp" />
       <module name="javaGame" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Moonhalf.*" />
+          <option name="PATTERN" value="com.Moonhalf.components.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,10 +268,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="应用程序.com.Moonhalf.EscapeApp" />
+        <item itemvalue="应用程序.Login" />
         <item itemvalue="应用程序.com.Moonhalf.JavaGame.Login" />
         <item itemvalue="应用程序.EscapeApp" />
         <item itemvalue="应用程序.Login (2)" />
-        <item itemvalue="应用程序.Login (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -241,6 +309,31 @@
       <workItem from="1681649146962" duration="2236000" />
       <workItem from="1681801704348" duration="15000" />
       <workItem from="1681914016479" duration="2393000" />
+      <workItem from="1681918061211" duration="126000" />
+      <workItem from="1681956411030" duration="4314000" />
+      <workItem from="1681970741484" duration="2330000" />
+      <workItem from="1681994182481" duration="623000" />
+      <workItem from="1682175288964" duration="1678000" />
+      <workItem from="1682177746947" duration="2017000" />
+      <workItem from="1682179801878" duration="1202000" />
+      <workItem from="1682236899645" duration="2556000" />
+      <workItem from="1682341693533" duration="4900000" />
+      <workItem from="1682346658418" duration="3466000" />
+      <workItem from="1682398505351" duration="1717000" />
+      <workItem from="1682402508749" duration="3430000" />
+      <workItem from="1682426856612" duration="3927000" />
+      <workItem from="1682430903589" duration="1377000" />
+      <workItem from="1682486477480" duration="603000" />
+      <workItem from="1682488582311" duration="1269000" />
+      <workItem from="1682507068907" duration="2446000" />
+      <workItem from="1682522001727" duration="356000" />
+      <workItem from="1682522365520" duration="5181000" />
+      <workItem from="1682606918360" duration="1345000" />
+      <workItem from="1682670836476" duration="3481000" />
+      <workItem from="1682697208390" duration="1427000" />
+      <workItem from="1682750517341" duration="7704000" />
+      <workItem from="1682772033740" duration="7558000" />
+      <workItem from="1682836090320" duration="6667000" />
     </task>
     <task id="LOCAL-00001" summary="no-1">
       <created>1677744794945</created>
@@ -263,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677746086787</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4.19">
+      <created>1681918126268</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681918126268</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +373,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="no-1" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="4.19" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.19" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
