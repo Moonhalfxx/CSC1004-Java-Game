@@ -7,11 +7,11 @@ import java.awt.event.ActionEvent;
 
 public class Login{
     public static int[] i = {0};
-    static String[] Username = new String[2];
-    static String[] Password = new String[2];
-    static String[] Age = new String[2];
-    static String[] Gender = new String[2];
-    static String[] Address = new String[2];
+    static String[] Username = new String[5];
+    static String[] Password = new String[5];
+    static String[] Age = new String[5];
+    static String[] Gender = new String[5];
+    static String[] Address = new String[5];
 
     public static void main(String[] args) {
 
@@ -40,13 +40,13 @@ public class Login{
 
         //添加用户名输入框 user
         JTextField user = new JTextField(20);
-        user.setFont(new Font("黑体", Font.PLAIN,18));
+        user.setFont(new Font("黑体", Font.PLAIN,19));
         user.setSelectedTextColor(new Color(0xFF0000));
-        user.setBounds(330,170,280,40);
+        user.setBounds(330,170,281,40);
         jFrame.add(user);
 
         //添加标签【密码】 textPassword
-        JLabel textPassword = new JLabel("密码  :");
+        JLabel textPassword = new JLabel("  密码:");
         textPassword.setForeground(Color.pink);
         textPassword.setFont(new Font("黑体", Font.PLAIN,30));
         textPassword.setBounds(200,200,200,100);
@@ -54,17 +54,17 @@ public class Login{
 
         //添加密码输入框 password
         JPasswordField password = new JPasswordField(20);
-        password.setBounds(330,230,280,40);
+        password.setBounds(330,230,281,40);
         jFrame.add(password);
 
         //添加登录按钮
-        JButton jButton = new JButton("登录");
-        jButton.setForeground(new Color(0x023BF6));
-        jButton.setBackground(new Color(0x38FF00));
-        jButton.setFont(new Font("黑体", Font.PLAIN,20));
-        jButton.setBorderPainted(false);
-        jButton.setBounds(450,330,100,50);
-        jFrame.add(jButton);
+        JButton Button = new JButton("登录");
+        Button.setForeground(new Color(0x023BF6));
+        Button.setBackground(new Color(0x38FF00));
+        Button.setFont(new Font("黑体", Font.PLAIN,20));
+        Button.setBorderPainted(false);
+        Button.setBounds(450,330,100,50);
+        jFrame.add(Button);
 
 
         //添加CheckBox
@@ -75,7 +75,7 @@ public class Login{
 
 
         //添加登录按钮事件
-        jButton.addActionListener((e -> {
+        Button.addActionListener((e -> {
             //CheckBox判断
             if(cm.isSelected()){
                 i[0]++;
@@ -85,6 +85,7 @@ public class Login{
             Connection connection=JdbcUtil.getConnection();
             Statement statement = null;
             try {
+                assert connection != null;
                 statement = connection.createStatement();
             } catch (SQLException ex) {
                 throw new RuntimeException(ex);
@@ -168,17 +169,17 @@ public class Login{
             }
         }));
 
-        //设置位置：屏幕中间
+        //设置窗体的位置在屏幕中间
         jFrame.setLocationRelativeTo(null);
-
-        //确保使用窗口关闭按钮，能够正常退出
-        jFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         //禁止调整窗口大小
         jFrame.setResizable(false);
 
         //设置窗口为可见
         jFrame.setVisible(true);
+
+        //使用窗口关闭按钮 能够正常退出
+        jFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     }
 
 }

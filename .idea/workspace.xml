@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cacd1953-59bb-402e-922e-a5f6cb7122a9" name="变更" comment="5.6.1">
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-06-5月-2023-00.27.08.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/FXGL-06-5月-2023-00.28.50.log" afterDir="false" />
+    <list default="true" id="cacd1953-59bb-402e-922e-a5f6cb7122a9" name="变更" comment="5.6.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-03-5月-2023-19.57.09.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-03-5月-2023-19.59.06.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Moonhalf/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +256,8 @@
       <workItem from="1683217582357" duration="255000" />
       <workItem from="1683276655357" duration="27000" />
       <workItem from="1683294299787" duration="940000" />
-      <workItem from="1683300796768" duration="3333000" />
+      <workItem from="1683300796768" duration="3352000" />
+      <workItem from="1683304826829" duration="331000" />
     </task>
     <task id="LOCAL-00001" summary="no-1">
       <created>1677744794945</created>
@@ -311,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683303839987</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="5.6.2">
+      <created>1683304148115</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683304148115</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +329,8 @@
     <MESSAGE value="4.30" />
     <MESSAGE value="5.6" />
     <MESSAGE value="5.6.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.6.1" />
+    <MESSAGE value="5.6.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.6.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
