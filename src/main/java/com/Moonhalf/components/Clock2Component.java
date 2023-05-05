@@ -20,6 +20,7 @@ public class Clock2Component extends Component {
             c0.getViewComponent().addOnClickHandler(mouseEvent1 -> {
                 c0.removeFromWorld();
                 ard.removeFromWorld();
+                play("调钟表.wav");
                 Entity c1 = spawn("cl1");
                 Entity ard1 = spawn("arrowD");
                 ard1.getViewComponent().addOnClickHandler(mouseEvent2 -> {
@@ -27,6 +28,7 @@ public class Clock2Component extends Component {
                     ard1.removeFromWorld();
                 });
                 c1.getViewComponent().addOnClickHandler(mouseEvent2 -> {
+                    play("调钟表.wav");
                     c1.removeFromWorld();
                     ard1.removeFromWorld();
                     Entity c2 = spawn("cl2");
@@ -36,6 +38,7 @@ public class Clock2Component extends Component {
                         ard2.removeFromWorld();
                     });
                     c2.getViewComponent().addOnClickHandler(mouseEvent3 -> {
+                        play("调钟表.wav");
                         c2.removeFromWorld();
                         ard2.removeFromWorld();
                         Entity c3 = spawn("cl3");
@@ -45,6 +48,7 @@ public class Clock2Component extends Component {
                             ard3.removeFromWorld();
                         });
                         c3.getViewComponent().addOnClickHandler(mouseEvent4 -> {
+                            play("调钟表.wav");
                             c3.removeFromWorld();
                             ard3.removeFromWorld();
                             Entity c4 = spawn("cl4");
@@ -54,6 +58,7 @@ public class Clock2Component extends Component {
                                 ard4.removeFromWorld();
                             });
                             c4.getViewComponent().addOnClickHandler(mouseEvent5 -> {
+                                play("调钟表.wav");
                                 c4.removeFromWorld();
                                 ard4.removeFromWorld();
                                 Entity c5 = spawn("cl5");
@@ -63,6 +68,7 @@ public class Clock2Component extends Component {
                                     ard5.removeFromWorld();
                                 });
                                 c5.getViewComponent().addOnClickHandler(mouseEvent6 -> {
+                                    play("调钟表.wav");
                                     c5.removeFromWorld();
                                     ard5.removeFromWorld();
                                     Entity c6 = spawn("cl6");
@@ -72,6 +78,7 @@ public class Clock2Component extends Component {
                                         ard6.removeFromWorld();
                                     });
                                     c6.getViewComponent().addOnClickHandler(mouseEvent7 -> {
+                                        play("钟表开.wav");
                                         c6.removeFromWorld();
                                         ard6.removeFromWorld();
                                         Entity cf = spawn("cf");

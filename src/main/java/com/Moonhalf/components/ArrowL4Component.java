@@ -16,6 +16,7 @@ public class ArrowL4Component extends Component {
             spawn("bg");
             spawn("arrowR1");
             spawn("arrowL1");
+            spawn("letter");
             Entity door = spawn("door",new SpawnData(550,400));
             spawn("curtain",new SpawnData(180,220));
         });

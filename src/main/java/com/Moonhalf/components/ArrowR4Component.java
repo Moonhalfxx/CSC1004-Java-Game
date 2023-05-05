@@ -1,5 +1,6 @@
 package com.Moonhalf.components;
 
+import com.almasb.fxgl.dsl.FXGL;
 import com.almasb.fxgl.entity.Entity;
 import com.almasb.fxgl.entity.component.Component;
 import javafx.scene.Node;
@@ -28,6 +29,12 @@ public class ArrowR4Component extends Component {
                 tap.removeFromWorld();
                 ar3.removeFromWorld();
                 al3.removeFromWorld();
+                FXGL.spawn("bg");
+                Entity bed = FXGL.spawn("bed");
+                Entity box = FXGL.spawn("box");
+                Entity clock = FXGL.spawn("clock2");
+                Entity ar4 = FXGL.spawn("arrowR4");
+                Entity al4 = FXGL.spawn("arrowL4");
             });
         });
     }

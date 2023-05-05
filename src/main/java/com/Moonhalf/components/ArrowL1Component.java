@@ -12,8 +12,10 @@ import static com.almasb.fxgl.dsl.FXGL.spawn;
 public class ArrowL1Component extends Component{
     @Override
     public void onAdded() {
+        //叫ar的原因是因为我是从R1Component那边复制过来的
         Node ar= entity.getViewComponent().getChildren().get(0);
         final double[] i = {0};
+        //转到场景二
         ar.setOnMouseClicked(mouseEvent -> {
             Entity bg = spawn("bg");
             Entity chair = spawn("chair");
@@ -29,6 +31,8 @@ public class ArrowL1Component extends Component{
                 arrowL2.removeFromWorld();
                 arrowR2.removeFromWorld();
             });
+
+            //后面发现下面这段可以集合到DrawerComponent里，所以去掉了
 /*            drawer.getViewComponent().addOnClickHandler(mouseEvent1 -> {
                 Entity drawerclick = FXGL.spawn("drawerclick");
                 Entity d1 = FXGL.spawn("d1");

@@ -11,6 +11,29 @@ import javafx.scene.paint.Color;
 import static com.almasb.fxgl.dsl.FXGL.*;
 
 public class EscapeEntityFactory implements EntityFactory {
+    //就是单纯放游戏实体的仓库..用来快速在游戏世界贴上这些实体以及写关于他们的组件（组件挪到components文件夹里了，就是那个东西最多的），没啥别的用处
+    //component文件夹里的那些功能就是通过点击事件改变舞台或者舞台上的组件，随便看看就能看懂了，不多写注释了
+
+    @Spawns("s1")
+    public Entity newS1(SpawnData data){
+        return FXGL.entityBuilder(data)
+                .view("s1.jpg")
+                .with(new S1Component())
+                .build();
+    }
+    @Spawns("s2")
+    public Entity newS2(SpawnData data){
+        return FXGL.entityBuilder(data)
+                .view("s2.jpg")
+                .with(new S2Component())
+                .build();
+    }
+    @Spawns("s3")
+    public Entity newS3(SpawnData data){
+        return FXGL.entityBuilder(data)
+                .view("s3.jpg")
+                .build();
+    }
 
     @Spawns("bg")
     public Entity newBg(SpawnData data){
@@ -191,6 +214,29 @@ public class EscapeEntityFactory implements EntityFactory {
                 .with(new DgComponent())
                 .build();
     }
+    @Spawns("letter")
+    public Entity newLetter(SpawnData data){
+        Texture letter = texture("Stage1/letter.png",120,50);
+        return entityBuilder(data)
+                .view(letter)
+                .at(200,750)
+                .with(new LetterComponent())
+                .build();
+    }
+    @Spawns("letterbg")
+    public Entity newLetterbg(SpawnData data){
+        Texture letter = texture("Stage1/letterbg.png");
+        return entityBuilder(data)
+                .view(letter)
+                .build();
+    }
+    @Spawns("paper")
+    public Entity newPaper(SpawnData data){
+        Texture letter = texture("Stage1/paper.jpg");
+        return entityBuilder(data)
+                .view(letter)
+                .build();
+    }
     @Spawns("chair")
     public Entity newChair(SpawnData data){
         Texture chair = texture("Stage2/Stage2 Chair.png",170,370);
@@ -303,7 +349,7 @@ public class EscapeEntityFactory implements EntityFactory {
         Texture tap = texture("Stage3/Stage3 Tap1.png",172,202);
         return FXGL.entityBuilder(data)
                 .view(tap)
-                .at(185,380)
+                .at(182,382)
                 .build();
     }
     @Spawns("tapc2")
@@ -349,13 +395,15 @@ public class EscapeEntityFactory implements EntityFactory {
         Texture guizi = texture("Stage3/guizi.png",320,330);
         return entityBuilder(data)
                 .view(guizi)
+                .with(new GuiziComponent())
                 .at(450,410)
                 .build();
     }
     @Spawns("guizic1")
     public Entity newGuizic1(SpawnData data){
-        Texture guizi = texture("Stage3/guizic1.png");
+        Texture guizi = texture("Stage3/guizic1.jpg");
         return entityBuilder(data)
+                .with(new GuiziComponent())
                 .view(guizi)
                 .build();
     }
@@ -371,6 +419,7 @@ public class EscapeEntityFactory implements EntityFactory {
         Texture note = texture("Stage3/yinfu/Do.png");
         return entityBuilder()
                 .view(note)
+                .at(195,330)
                 .build();
     }
     @Spawns("Re")
@@ -378,6 +427,7 @@ public class EscapeEntityFactory implements EntityFactory {
         Texture note = texture("Stage3/yinfu/Re.png");
         return entityBuilder()
                 .view(note)
+                .at(325,330)
                 .build();
     }
     @Spawns("Mi")
@@ -385,6 +435,7 @@ public class EscapeEntityFactory implements EntityFactory {
         Texture note = texture("Stage3/yinfu/Mi.png");
         return entityBuilder()
                 .view(note)
+                .at(455,330)
                 .build();
     }
     @Spawns("Fa")
@@ -392,27 +443,88 @@ public class EscapeEntityFactory implements EntityFactory {
         Texture note = texture("Stage3/yinfu/Fa.png");
         return entityBuilder()
                 .view(note)
+                .at(590,330)
                 .build();
     }
-    @Spawns("Sol")
-    public Entity newSol(SpawnData data){
-        Texture note = texture("Stage3/yinfu/Sol.png");
+    @Spawns("So")
+    public Entity newSo(SpawnData data){
+        Texture note = texture("Stage3/yinfu/So.png",125,120);
         return entityBuilder()
                 .view(note)
+                .at(195,500)
                 .build();
     }
     @Spawns("La")
     public Entity newLa(SpawnData data){
-        Texture note = texture("Stage3/yinfu/La.png");
+        Texture note = texture("Stage3/yinfu/La.png",125,125);
         return entityBuilder()
                 .view(note)
+                .at(325,500)
                 .build();
     }
+    @Spawns("Ti")
+    public Entity newTi(SpawnData data){
+        Texture note = texture("Stage3/yinfu/Ti.png",125,118);
+        return entityBuilder()
+                .view(note)
+                .at(455,505)
+                .build();
+    }
+    @Spawns("Do1")
+    public Entity newDo1(SpawnData data){
+        Texture note = texture("Stage3/yinfu/Do1.png");
+        return entityBuilder()
+                .view(note)
+                .at(590,500)
+                .build();
+    }
+    @Spawns("Re1")
+    public Entity newRe1(SpawnData data){
+        Texture note = texture("Stage3/yinfu/Re1.png");
+        return entityBuilder()
+                .view(note)
+                .at(195,670)
+                .build();
+    }
+    @Spawns("Mi1")
+    public Entity newMi1(SpawnData data){
+        Texture note = texture("Stage3/yinfu/Mi1.png");
+        return entityBuilder()
+                .view(note)
+                .at(325,670)
+                .build();
+    }
+    @Spawns("Fa1")
+    public Entity newFa1(SpawnData data){
+        Texture note = texture("Stage3/yinfu/Fa1.png");
+        return entityBuilder()
+                .view(note)
+                .at(455,670)
+                .build();
+    }
+    @Spawns("So1")
+    public Entity newSo1(SpawnData data){
+        Texture note = texture("Stage3/yinfu/So1.png",125,120);
+        return entityBuilder()
+                .view(note)
+                .at(590,670)
+                .build();
+    }
+
     @Spawns("bed")
     public Entity newBed(SpawnData data){
         Texture bed = texture("Stage4/Stage4 Bed.png",400,410);
         return FXGL.entityBuilder(data)
                 .view(bed)
+                .with(new BedComponent())
+                .at(500,505)
+                .build();
+    }
+    @Spawns("bedc")
+    public Entity newBedc(SpawnData data){
+        Texture bedc = texture("Stage4/Bedc.png",400,410);
+        return FXGL.entityBuilder(data)
+                .view(bedc)
                 .at(500,505)
                 .build();
     }
@@ -487,6 +599,51 @@ public class EscapeEntityFactory implements EntityFactory {
     public Entity newCf(SpawnData data){
         return entityBuilder(data)
                 .view("Stage4/Cf.png")
+                .build();
+    }
+
+    @Spawns("f")
+    public Entity newF(SpawnData data){
+        Texture f = texture("f.jpg",900,900);
+        return entityBuilder(data)
+                .view(f)
+                .build();
+    }
+    @Spawns("f1")
+    public Entity newF1(SpawnData data){
+        return entityBuilder(data)
+                .view("f1.jpg")
+                .with(new F1Component())
+                .build();
+    }
+    @Spawns("f2")
+    public Entity newF2(SpawnData data){
+        return entityBuilder(data)
+                .view("f2.jpg")
+                .build();
+    }
+    @Spawns("f3")
+    public Entity newF3(SpawnData data){
+        return entityBuilder(data)
+                .view("f3.jpg")
+                .build();
+    }
+    @Spawns("f4")
+    public Entity newF4(SpawnData data){
+        return entityBuilder(data)
+                .view("f4.jpg")
+                .build();
+    }
+    @Spawns("f5")
+    public Entity newF5(SpawnData data){
+        return entityBuilder(data)
+                .view("f5.jpg")
+                .build();
+    }
+    @Spawns("f6")
+    public Entity newF6(SpawnData data){
+        return entityBuilder(data)
+                .view("f6.jpg")
                 .build();
     }
 }
