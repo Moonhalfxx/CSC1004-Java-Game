@@ -1,6 +1,8 @@
 # CSC1004-Java-Game
 一个密室逃脱游戏   
 
+大部分知识从B站fxgl教学视频学习：https://www.bilibili.com/video/BV1di4y1r7eG/?spm_id_from=333.999.0.0&vd_source=66f5e08390cb5072cfd39f1b73f72c58
+
 *从main文件夹中的Login类开始运行
 
 *目前在数据库只写入了两个账号：①user: admin; password 123456 ②user1 123
