@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cacd1953-59bb-402e-922e-a5f6cb7122a9" name="变更" comment="5.6.2">
+    <list default="true" id="cacd1953-59bb-402e-922e-a5f6cb7122a9" name="变更" comment="5.6.3">
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-06-5月-2023-13.21.46.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-06-5月-2023-13.26.09.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-06-5月-2023-13.27.43.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-08-5月-2023-23.36.22.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Moonhalf/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Moonhalf/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-06-5月-2023-00.00.08.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-06-5月-2023-00.01.45.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-06-5月-2023-00.04.08.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-06-5月-2023-00.07.36.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-06-5月-2023-00.13.01.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-06-5月-2023-00.14.30.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-06-5月-2023-00.27.08.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +267,11 @@
       <workItem from="1683276655357" duration="27000" />
       <workItem from="1683294299787" duration="940000" />
       <workItem from="1683300796768" duration="3352000" />
-      <workItem from="1683304826829" duration="331000" />
+      <workItem from="1683304826829" duration="476000" />
+      <workItem from="1683350191966" duration="930000" />
+      <workItem from="1683559841003" duration="434000" />
+      <workItem from="1683627262854" duration="14000" />
+      <workItem from="1683630271504" duration="463000" />
     </task>
     <task id="LOCAL-00001" summary="no-1">
       <created>1677744794945</created>
@@ -315,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683304148115</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="5.6.3">
+      <created>1683305286765</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683305286765</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +351,8 @@
     <MESSAGE value="5.6" />
     <MESSAGE value="5.6.1" />
     <MESSAGE value="5.6.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.6.2" />
+    <MESSAGE value="5.6.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.6.3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
