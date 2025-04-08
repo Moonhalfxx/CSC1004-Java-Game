@@ -1,4 +1,7 @@
 # CSC1004-Java-Game
+
+**视频demo**：https://www.bilibili.com/video/BV18c411G72h/?spm_id_from=333.1387.homepage.video_card.click&vd_source=66f5e08390cb5072cfd39f1b73f72c58
+
 一个密室逃脱游戏   
 
 Advanced Feature: Voice + Cheating mode
